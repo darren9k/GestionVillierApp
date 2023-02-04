@@ -11,14 +11,15 @@ A management application for services and events offered by the Town Hall of Vil
 ## Getting started   
 
 
-### Modele.java 
-In src/modele/Modele.java 
+### config_db.php 
+in intranet-test\controleur\config_db.php 
 Update the following code according to your server information:  
 
-```Java 
-private static Bdd uneBdd = new Bdd("ip","db", "user", "pwd"); 
+```PHP 
+<?php
+	$serveur = "ip"; 
+	$bdd ="iris_2022"; 
+	$user ="user"; 
+	$mdp ="pwd"; 
+?>
 ```
-
-### Driver MySQL
-
-download Mysql-connector-Java : https://fr.osdn.net/projects/sfnet_id2d/downloads/jdbc%20drivers/mysql-connector-java-5.1.15-bin.jar/
